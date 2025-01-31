@@ -8,6 +8,7 @@ import yaml from '@rollup/plugin-yaml'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/ai-native-dev-landscape/',
   plugins: [
     vue(),
     vueJsx(),
